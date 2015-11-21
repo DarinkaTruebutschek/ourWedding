@@ -1,33 +1,49 @@
 {{setYUIModule "le-home"}}
-{{setDescription "Leslie Verploegen & Eric Ferraiuolo are getting married on October 5th, 2013 in Easton, MD."}}
+{{setDescription "Valentina Borghesani & Fabian Pedregosa are getting married."}}
 {{addCSS "/css/home.css"}}
 
 <h1 class="ann">
-    <span class="ann-primary">Leslie Verploegen</span>
+    <span class="ann-primary">Valentina Borghesani</span>
     <span class="ann-secondary ann-sep">&amp;</span>
-    <span class="ann-primary">Eric Ferraiuolo</span>
+    <span class="ann-primary">Fabian Pedregosa</span>
 </h1>
 
 <ol class="timeline l-grid">
-  {{#event "Getting Married"
-        time   = "October 5, 2013"
-        photo  = "/photos/engagement.jpg"
-        alt    = "Photo of Leslie and Eric in their apartment."
-        credit = "Megan Beth Photography|http://www.meganbeth.com/"}}
 
-    {{> event/header}}
-    {{> event/photo}}
+    <li class="timeline-events">
+        <ol class="l-grid">
+          {{#event "Moved: Granada to Paris"
+                who  = "eric"
+                time = "June 2007"
+		photo = "/photos/fabian_trip.png"
+                }}
 
-    <p>
-        Leslie and Eric are getting married this Fall in <strong>Easton, Maryland</strong>.
-    </p>
+            {{> event/header}}
+            {{> event/photo}}
 
-    <p class="button-wedding">
-        <a class="button" data-icon="i" href="/wedding/">See Wedding Details</a>
-    </p>
+            <p>
+                After graduating from Michigan State University, Eric headed East and moved to Boston.
+            </p>
 
-    {{> event/time}}
-  {{/event}}
+            {{> event/time}}
+          {{/event}}
+
+          {{#event "Moved: San Giovanni in Persicetto to Paris"
+                who  = "leslie"
+                time = "July 2006"
+                photo  = "/photos/vale_trip.png"}}
+
+            {{> event/header}}
+            {{> event/photo}}
+
+            <p>
+                After graduating from Trento, Valentina headed North and moved to Boston.
+            </p>
+
+            {{> event/time}}
+          {{/event}}
+        </ol>
+    </li>
 
   {{#event "Celebrated Engagement"
         time  = "December 2, 2012"
@@ -175,37 +191,25 @@
     {{> event/time}}
   {{/event}}
 
-    <li class="timeline-events">
-        <ol class="l-grid">
-          {{#event "Moved: MI to Boston"
-                who  = "eric"
-                time = "June 2007"
-                map  = "ericf.map-33lesuym"}}
 
-            {{> event/header}}
-            {{> event/map}}
+  {{#event "Getting Married"
+        time   = "October 5, 2013"
+        photo  = "/photos/engagement.jpg"
+        alt    = "Photo of Leslie and Eric in their apartment."
+        credit = "Megan Beth Photography|http://www.meganbeth.com/"}}
 
-            <p>
-                After graduating from Michigan State University, Eric headed East and moved to Boston.
-            </p>
+    {{> event/header}}
+    {{> event/photo}}
 
-            {{> event/time}}
-          {{/event}}
+    <p>
+        Leslie and Eric are getting married this Fall in <strong>Easton, Maryland</strong>.
+    </p>
 
-          {{#event "Moved: VA to Boston"
-                who  = "leslie"
-                time = "July 2006"
-                map  = "ericf.map-bsmwt9pf"}}
+    <p class="button-wedding">
+        <a class="button" data-icon="i" href="/wedding/">See Wedding Details</a>
+    </p>
 
-            {{> event/header}}
-            {{> event/map}}
+    {{> event/time}}
+  {{/event}}
 
-            <p>
-                After graduating from Virginia Tech, Leslie headed North and moved to Boston.
-            </p>
-
-            {{> event/time}}
-          {{/event}}
-        </ol>
-    </li>
 </ol>

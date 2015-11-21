@@ -1,5 +1,9 @@
 {
     "default": {
-        "driver": "pg"
+        "driver": "pg",
+	"user": "postgres",
+	"database" : "open-marriage",
+	"host": "localhost",
+	"password": "F&xCWVFj:e[X8[*"
     }
 }
