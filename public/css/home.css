@@ -26,7 +26,6 @@ body {
     background: #f2c63d;
 }
 .timeline:after {
-    content: 'h';
     font-family: 'Pictos Custom';
     font-size: 3em;
     -webkit-font-smoothing: antialiased;

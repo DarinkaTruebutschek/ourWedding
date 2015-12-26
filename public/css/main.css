@@ -292,7 +292,7 @@ a.is-button-negative {
 .ann {
     font-size: 1.25em;
     line-height: 1.25;
-    margin: 1em 0;
+    margin: 0 0;
 }
 .ann > * {
     display: block;
@@ -413,6 +413,6 @@ a.is-button-negative {
 @media screen and (min-width: 64em) {
     .ann {
         font-size: 2.5em;
-        margin: 1.2em 0;
-    }
+/*        margin: 1.2em 0;
+*/    }
 }
