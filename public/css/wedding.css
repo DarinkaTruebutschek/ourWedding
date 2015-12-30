@@ -15,8 +15,9 @@ body {
 }
 
 .l-wrap {
-    position: absolute;
-    top: 62%;
+/*    position: absolute;
+*/    
+    top: 350px;
     width: 100%;
     min-height: 38%;
     z-index: 2;
