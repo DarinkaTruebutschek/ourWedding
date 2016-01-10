@@ -20,7 +20,7 @@ h4 { font-size: 1em; }
 
 a:link,
 a:visited {
-    color: #216eb5;
+    color: #5a8eaf;
     text-decoration: none;
 }
 
@@ -135,7 +135,7 @@ button,
 button,
 .button,
 a.button {
-    color: #304534;
+    color: #601830;
     text-decoration: none;
 }
 button:before,
@@ -148,7 +148,7 @@ button:before,
     line-height: 1.5;
     width: 1em;
     padding: 0.125em 0.25em 0;
-    background: #75AB81;
+    background: #9B4D67;
     text-align: center;
 }
 button:before,
@@ -185,7 +185,7 @@ a.is-button-negative {
 }
 .brand a:hover,
 .brand a:active {
-    color: #216eb5;
+    color: #5a8eaf;
 }
 
 .nav-list {
@@ -212,7 +212,7 @@ a.is-button-negative {
 }
 .nav-item a:hover b,
 .nav-item a:active b {
-    border-bottom: 1px solid #216eb5;
+    border-bottom: 1px solid #5a8eaf;
 }
 .is-nav-item-active b {
     border-bottom: 1px solid #e5e5df;
@@ -280,7 +280,7 @@ a.is-button-negative {
 }
 .subnav .nav-item:first-child a:hover,
 .subnav .nav-item:first-child a:active {
-    color: #216eb5;
+    color: #5a8eaf;
 }
 .subnav .nav-item:first-child b {
     border-bottom: none;
@@ -311,7 +311,7 @@ a.is-button-negative {
 
 .callout {
     padding: 0.5em 0 0.5em 2em;
-    border-left: 4px solid #f2c63d;
+    border-left: 4px solid #601830;
 }
 
 .break {
