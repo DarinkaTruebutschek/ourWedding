@@ -23,7 +23,7 @@ body {
     top: 0;
     left: 50%;
     margin-left: -0.25em;
-    background: #f2c63d;
+    background: #601830;
 }
 .timeline:after {
     font-family: 'Pictos Custom';
@@ -35,7 +35,7 @@ body {
     left: -0.0417em;
     width: 100%;
     text-align: center;
-    color: #f2c63d;
+    color: #601830;
 }
 .timeline-events {
     margin-top: -2em;
@@ -202,7 +202,7 @@ body {
     }
     .event-leslie:after {
         left: 100%;
-        border-left-color: #fff;
+        border-left-color: #601830;
     }
     .event-fabian:before {
         right: 100%;
@@ -211,7 +211,7 @@ body {
     }
     .event-fabian:after {
         right: 100%;
-        border-right-color: #fff;
+        border-right-color: #601830;
     }
     .event-leslie + .event-fabian,
     .event-fabian + .event-leslie {
