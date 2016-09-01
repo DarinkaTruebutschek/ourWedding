@@ -42,7 +42,7 @@ app.locals({
     nav: [
         {id: 'wedding',   url: '/wedding/',   label: 'Wedding'},
         {id: 'logistics', url: '/logistics/', label: 'Logistics'},
-        {id: 'registry',  url: '/gifts/',  label: 'Gifts'},
+        {id: 'registry',  url: '/thanks/',  label: 'Thanks!'},
 	{id: 'photos',  url: '/photos/',  label: 'Photos'},
 //        {id: 'rsvp',      url: '/rsvp/',      label: 'RSVP'}
     ],
@@ -108,7 +108,7 @@ app.get('/logistics/',         routes.render('logistics'));
 app.get('/logistics/hotels/',  routes.render('logistics/hotels'));
 app.get('/logistics/outings/', routes.render('logistics/outings'));
 
-app.get('/gifts/', routes.render('registry'));
+app.get('/thanks/', routes.render('registry'));
 app.get('/photos/', routes.render('photos'));
 
 app.get( '/rsvp/',                       routes.rsvp.pub, routes.rsvp.edit);
