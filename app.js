@@ -43,7 +43,8 @@ app.locals({
         {id: 'wedding',   url: '/wedding/',   label: 'Wedding'},
         {id: 'logistics', url: '/logistics/', label: 'Logistics'},
         {id: 'registry',  url: '/registry/',  label: 'Registry'},
-        {id: 'rsvp',      url: '/rsvp/',      label: 'RSVP'}
+	{id: 'photos',  url: '/photos/',  label: 'photos'},
+//        {id: 'rsvp',      url: '/rsvp/',      label: 'RSVP'}
     ],
 
     subnav: {
@@ -108,6 +109,7 @@ app.get('/logistics/hotels/',  routes.render('logistics/hotels'));
 app.get('/logistics/outings/', routes.render('logistics/outings'));
 
 app.get('/registry/', routes.render('registry'));
+app.get('/photos/', routes.render('photos'));
 
 app.get( '/rsvp/',                       routes.rsvp.pub, routes.rsvp.edit);
 app.post('/rsvp/',                       routes.rsvp.resend);
