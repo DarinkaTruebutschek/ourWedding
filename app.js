@@ -44,6 +44,7 @@ app.locals({
         {id: 'logistics', url: '/logistics/', label: 'Logistics'},
         {id: 'registry',  url: '/thanks/',  label: 'Thanks!'},
 	{id: 'photos',  url: '/photos/',  label: 'Photos'},
+	{id: 'ceremony',  url: '/ceremony/',  label: 'ceremony'},
 //        {id: 'rsvp',      url: '/rsvp/',      label: 'RSVP'}
     ],
 
@@ -110,6 +111,7 @@ app.get('/logistics/outings/', routes.render('logistics/outings'));
 
 app.get('/thanks/', routes.render('registry'));
 app.get('/photos/', routes.render('photos'));
+app.get('/ceremony/', routes.render('ceremony'));
 
 app.get( '/rsvp/',                       routes.rsvp.pub, routes.rsvp.edit);
 app.post('/rsvp/',                       routes.rsvp.resend);
